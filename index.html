@@ -6,30 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Birth-calculator</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/birth.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div class="container">
+            <h1>BIRTHDAY CALCULATOR</h1>
         <div class="card">
             <div class="row">
-                <h1>BIRTHDAY CALCULATOR</h1>
                 <div class="col-md-12">
                     <p>This is a calculator that is helps an individual to know which day of 
-                        the week he/she was born.and also know his/her Akan names.Where Akan names are
+                        the week he/she was born.and also know his/her Akan names.Akan names are
                          derived from Ghanian culture. Frequently in Ghana, children are given their first 
                          name as a 'day name' which corresponds day in the week they were born. Here are Ghanian day names. </p>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8"></div>
-                <div class="col-md-2"></div>
+                <div>
+                        <form action="script" method="GET">
+                            <legend>Enter the requirements:</legend>
+                            <label for="date">Date of birth:</label>
+                            <input type="date">
+                            <div class="date">
+                                    <label for="gender">Gender:</label>
+                                    <input type="radio"name="gender" value="Male" checked>Male
+                                    <input type="radio" name="gender" value="Female">Female<br>
+                                    <div class="button">
+                                        <button type="submit">send</button>
+                            </div>
+                            </div>
+                        </form>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="row"></div>
-        </div>
-    </div>
 </body>
 </html>
