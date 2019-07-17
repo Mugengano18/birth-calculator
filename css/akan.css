@@ -1,0 +1,25 @@
+body{
+    background-color: aliceblue;
+}
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Kalam', cursive;
+}
+.button {
+    text-align: center;
+}
+label{
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+}
+legend{
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+}
+input{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
