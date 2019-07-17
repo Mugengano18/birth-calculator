@@ -17,3 +17,27 @@ p {
     font-size:20px;
     font-family: 'Literata', serif;
 }
+.card >table {
+    border: 2px solid black;
+}
+.card >table >th {
+    border: 2px solid black;
+}
+.link {
+    text-align: center;
+    font-size: 30px;
+}
+.link a:hover{
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 100px;
+    font-size: 30px;
+    color: black;
+
+}
+#foot {
+    font-size: 15px;
+    text-align: center;
+}
+
