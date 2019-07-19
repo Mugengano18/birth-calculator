@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
-    <script src="js/script.js"></script>
+    
 
 </head>
 <body>
@@ -20,20 +20,19 @@
                 <div class="col-md-6">
                     <div class="card">
                         <div>
-                                <form action="script" method="GET">
                                         <legend>Enter the requirements:</legend>
                                         <div>
                                                 <label for="name">Your firstname:</label><br>
-                                                <input type="text">
+                                                <input type="text" id="firstName">
                                         </div>
                                         <div>
                                                 <label for="date">Date of birth:</label><br>
-                                                <input type="date">
+                                                <input type="date" id="jour">
                                         </div>
                                         <div>
                                                 <label for="gender">Gender:</label>
-                                                <input type="radio"name="gender" value="Male" checked>Male
-                                                <input type="radio" name="gender" value="Female">Female<br>
+                                                <input type="radio"name="gender" value="Male" id="male">Male
+                                                <input type="radio" name="gender" value="Female" id="female">Female<br>
                                         </div>
                                         <div>
                                                 <div class="button">
@@ -45,5 +44,7 @@
                 <div class="col-md-6"></div>
             
     </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

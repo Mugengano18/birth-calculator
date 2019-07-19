@@ -1,14 +1,27 @@
 // function hello() {
 //     alert("Hello, world!");
 //     }
-var sec,fourth,fifth;
-var dd=parseInt(prompt("enter your date of birth"));
-var mm=parseInt(prompt("enter your month of birth"));
-var yy=parseInt(prompt("enter the year you were born in:"));
+
+function birth(){
+    var sec,fourth;
+var fullName= document.getElementById("firstName").value;
+var dateInput=document.getElementById("jour").value;
+var date=new Date(dateInput);
+console.log(date);
+var dd= date.getDate();
+console.log(dd)
+var mm= date.getMonth() + 1;
+var yy= date.getFullYear();
+console.log(mm);
 var cc=parseInt(yy.toString().slice(0,2));
 var Year=parseInt(yy.toString().slice(2,4));
-var gender=prompt("enter your gender");
-function birth(){
+if(document.getElementById('male').checked){
+    var gender = 'Male'
+}else{
+    var gender = 'Female'
+}
+
+console.log(gender)
      var third,fir;
      fir=(parseInt(Year/4))+dd;
      if(cc===17){
@@ -184,68 +197,80 @@ if (fourth===0){
      day="Saturday";
      if(gender==="Female"){
           name="Ama/Amma"
+          console.log(name)
      }
      else if(gender==="Male"){
           name="Kwame"
+          console.log(name)
      }
 }
 else if(fourth===1){
      day="Sunday";
      if(gender==="Female"){
           name="Akosua"
+          console.log(name)
      }
      else if(gender==="Male"){
           name="Kwasi"
+          console.log(name)
      }
 }
 else if(fourth===2){
      day="Monday";
      if(gender==="Female"){
           name="Adwoa"
+          console.log(name)
      }
      else if(gender==="Male"){
           name="Kwadwo"
+          console.log(name)
      }
 }
 else if(fourth===3){
      day="Tuesday";
      if(gender==="Female"){
           name="Abenna"
+          console.log(name)
      }
      else if(gender==="Male"){
           name="Kwabena"
+          console.log(name)
      }
 }
 else if(fourth===4){
      day="Wednesday";
      if(gender==="Female"){
           name="Akua/Akuba"
+          console.log(name)
      }
      else if(gender==="Male"){
           name="Kwaku"
+          console.log(name)
      }
 }
 else if(fourth===5){
      day="Thursday";
      if(gender==="Female"){
           name="Yaa"
+          console.log(name)
      }
      else if(gender==="Male"){
           name="Yaw"
+          console.log(name)
      }
 }
 else if(fourth===6){
      day="Friday";
      if(gender==="Female"){
-          name="Afua"
+          console.log("Afua");
      }
      else if(gender==="Male"){
-          name="Kofi"
+          console.log("Kofi");
      }
 }
 else{
      alert("no remaining days")
 }
-return  name;
+// console.log(name);
      }
-alert("your Akan name is:"+ birth());
+// alert("your Akan name is:"+ birth());
