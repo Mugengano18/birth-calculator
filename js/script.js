@@ -196,76 +196,76 @@ fourth=(third+Year)%7;
 if (fourth===0){
      day="Saturday";
      if(gender==="Female"){
-          name="Ama/Amma"
+          document.getElementById("Results").innerHTML="Ama/Amma";
           console.log(name)
      }
      else if(gender==="Male"){
-          name="Kwame"
+        document.getElementById("Results").innerHTML="Kwame"
           console.log(name)
      }
 }
 else if(fourth===1){
      day="Sunday";
      if(gender==="Female"){
-          name="Akosua"
+        document.getElementById("Results").innerHTML="Akosua"
           console.log(name)
      }
      else if(gender==="Male"){
-          name="Kwasi"
+        document.getElementById("Results").innerHTML="Kwasi"
           console.log(name)
      }
 }
 else if(fourth===2){
      day="Monday";
      if(gender==="Female"){
-          name="Adwoa"
+        document.getElementById("Results").innerHTML="Adwoa"
           console.log(name)
      }
      else if(gender==="Male"){
-          name="Kwadwo"
+        document.getElementById("Results").innerHTML="Kwadwo"
           console.log(name)
      }
 }
 else if(fourth===3){
      day="Tuesday";
      if(gender==="Female"){
-          name="Abenna"
+        document.getElementById("Results").innerHTML="Abenna"
           console.log(name)
      }
      else if(gender==="Male"){
-          name="Kwabena"
+        document.getElementById("Results").innerHTML="Kwabena"
           console.log(name)
      }
 }
 else if(fourth===4){
      day="Wednesday";
      if(gender==="Female"){
-          name="Akua/Akuba"
+        document.getElementById("Results").innerHTML="Akua/Akuba"
           console.log(name)
      }
      else if(gender==="Male"){
-          name="Kwaku"
+        document.getElementById("Results").innerHTML="Kwaku"
           console.log(name)
      }
 }
 else if(fourth===5){
      day="Thursday";
      if(gender==="Female"){
-          name="Yaa"
+        document.getElementById("Results").innerHTML="Yaa"
           console.log(name)
      }
      else if(gender==="Male"){
-          name="Yaw"
+        document.getElementById("Results").innerHTML="Yaw"
           console.log(name)
      }
 }
 else if(fourth===6){
      day="Friday";
      if(gender==="Female"){
-          console.log("Afua");
+        document.getElementById("Results").innerHTML=("Afua");
      }
      else if(gender==="Male"){
-          console.log("Kofi");
+        document.getElementById("Results").innerHTML=("Kofi");
      }
 }
 else{
