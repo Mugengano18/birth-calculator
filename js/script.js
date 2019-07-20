@@ -4,7 +4,8 @@
 
 function birth(){
     var sec,fourth;
-var fullName= document.getElementById("firstName").value;
+// var fullName= document.getElementById("fName").value;
+// document.getElementById("Results").innerHtml=fullName;
 var dateInput=document.getElementById("jour").value;
 var date=new Date(dateInput);
 console.log(date);
@@ -193,6 +194,7 @@ else if(cc===20){
      }
 }
 fourth=(third+Year)%7;
+
 if (fourth===0){
      day="Saturday";
      if(gender==="Female"){

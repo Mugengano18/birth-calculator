@@ -28,3 +28,9 @@ input{
     color: brown;
     text-align: center;
 }
+#Results,#fName{
+    font-size: 40px;
+    color:black;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
