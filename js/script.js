@@ -23,6 +23,8 @@ if(document.getElementById('male').checked){
 }
 
 console.log(gender)
+var M=["Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi"];
+var F=["Ama/Amma","Akosua","Adwoa","Abenna","Akua/Akuba","Yaa","Afua"];
      var third,fir;
      fir=(parseInt(Year/4))+dd;
      if(cc===17){
@@ -194,68 +196,67 @@ else if(cc===20){
      }
 }
 fourth=(third+Year)%7;
-
 if (fourth===0){
      day="Saturday";
      if(gender==="Female"){
-          document.getElementById("Results").innerHTML="Ama/Amma";
+          document.getElementById("Results").innerHTML=F[0];
      }
      else if(gender==="Male"){
-        document.getElementById("Results").innerHTML="Kwame"
+        document.getElementById("Results").innerHTML=M[0];
      }
 }
 else if(fourth===1){
      day="Sunday";
      if(gender==="Female"){
-        document.getElementById("Results").innerHTML="Akosua"
+        document.getElementById("Results").innerHTML=F[1];
      }
      else if(gender==="Male"){
-        document.getElementById("Results").innerHTML="Kwasi"
+        document.getElementById("Results").innerHTML=M[1];
      }
 }
 else if(fourth===2){
      day="Monday";
      if(gender==="Female"){
-        document.getElementById("Results").innerHTML="Adwoa"
+        document.getElementById("Results").innerHTML=F[2];
      }
      else if(gender==="Male"){
-        document.getElementById("Results").innerHTML="Kwadwo"
+        document.getElementById("Results").innerHTML=M[2];
      }
 }
 else if(fourth===3){
      day="Tuesday";
      if(gender==="Female"){
-        document.getElementById("Results").innerHTML="Abenna"
+        document.getElementById("Results").innerHTML=F[3];
      }
      else if(gender==="Male"){
-        document.getElementById("Results").innerHTML="Kwabena"
+        document.getElementById("Results").innerHTML=M[4];
      }
 }
 else if(fourth===4){
      day="Wednesday";
      if(gender==="Female"){
-        document.getElementById("Results").innerHTML="Akua/Akuba"
+        document.getElementById("Results").innerHTML=F[4];
      }
      else if(gender==="Male"){
-        document.getElementById("Results").innerHTML="Kwaku"
+        document.getElementById("Results").innerHTML=M[4];
      }
 }
 else if(fourth===5){
      day="Thursday";
      if(gender==="Female"){
-        document.getElementById("Results").innerHTML="Yaa"
+        document.getElementById("Results").innerHTML=F[5];
      }
      else if(gender==="Male"){
-        document.getElementById("Results").innerHTML="Yaw"
+        document.getElementById("Results").innerHTML=M[5];
      }
 }
 else if(fourth===6){
      day="Friday";
      if(gender==="Female"){
-        document.getElementById("Results").innerHTML=("Afua");
+        document.getElementById("Results").innerHTML=F[6];
      }
      else if(gender==="Male"){
-        document.getElementById("Results").innerHTML=("Kofi");
+        document.getElementById("Results").innerHTML=M[6];
      }
 }
 else{
