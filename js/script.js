@@ -197,66 +197,54 @@ if (fourth===0){
      day="Saturday";
      if(gender==="Female"){
           document.getElementById("Results").innerHTML="Ama/Amma";
-          console.log(name)
      }
      else if(gender==="Male"){
         document.getElementById("Results").innerHTML="Kwame"
-          console.log(name)
      }
 }
 else if(fourth===1){
      day="Sunday";
      if(gender==="Female"){
         document.getElementById("Results").innerHTML="Akosua"
-          console.log(name)
      }
      else if(gender==="Male"){
         document.getElementById("Results").innerHTML="Kwasi"
-          console.log(name)
      }
 }
 else if(fourth===2){
      day="Monday";
      if(gender==="Female"){
         document.getElementById("Results").innerHTML="Adwoa"
-          console.log(name)
      }
      else if(gender==="Male"){
         document.getElementById("Results").innerHTML="Kwadwo"
-          console.log(name)
      }
 }
 else if(fourth===3){
      day="Tuesday";
      if(gender==="Female"){
         document.getElementById("Results").innerHTML="Abenna"
-          console.log(name)
      }
      else if(gender==="Male"){
         document.getElementById("Results").innerHTML="Kwabena"
-          console.log(name)
      }
 }
 else if(fourth===4){
      day="Wednesday";
      if(gender==="Female"){
         document.getElementById("Results").innerHTML="Akua/Akuba"
-          console.log(name)
      }
      else if(gender==="Male"){
         document.getElementById("Results").innerHTML="Kwaku"
-          console.log(name)
      }
 }
 else if(fourth===5){
      day="Thursday";
      if(gender==="Female"){
         document.getElementById("Results").innerHTML="Yaa"
-          console.log(name)
      }
      else if(gender==="Male"){
         document.getElementById("Results").innerHTML="Yaw"
-          console.log(name)
      }
 }
 else if(fourth===6){
